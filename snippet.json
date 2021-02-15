@@ -1,0 +1,10 @@
+{"f9714734-0309-415e-9ccc-364381250b2a": {
+   "resourceKinds": [{
+      "resourceKindKey": "HostSystem",
+      "adapterKindKey": "VMWARE"
+   }],
+   "modificationTime": 1596732478894,
+   "name": "Host Uptime in days",
+   "formula": "floor(${this, metric=sys|Uptime_latest}/86400)",
+   "description": ""
+}}
